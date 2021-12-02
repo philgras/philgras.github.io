@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Neural Head Avatars from Monocular RGB Videos</title>
+    <link rel="stylesheet" href="../w3.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+
+<body>
+
+<br/>
+<br/>
+
+<div class="w3-container" id="paper">
+    <div class="w3-content" style="max-width:850px">
+  
+    <h2 align="center" id="title"><b>Neural Head Avatars from Monocular RGB Videos</b></h2>
+    <br/>
+
+    <p align="center" class="center_text" id="authors">
+        <a target="_blank" href="https://hci.iwr.uni-heidelberg.de/vislearn/people">Philip-William Grassal</a><sup>1*</sup>
+        &nbsp;&nbsp;
+        <a target="_blank" href="https://de.linkedin.com/in/malte-prinzler">Malte Prinzler</a><sup>1*</sup>
+        &nbsp;&nbsp;
+        <a target="_blank" href="https://titus-leistner.de/pages/about-me.html">Titus Leistner</a><sup>1*</sup>
+        &nbsp;&nbsp;
+        <a target="_blank" href="https://hci.iwr.uni-heidelberg.de/vislearn/people/carsten-rother/">Carsten Rother</a><sup>1</sup>
+        &nbsp;&nbsp;
+        <a target="_blank" href="https://www.niessnerlab.org/members/matthias_niessner/profile.html">Matthias Nie&szlig;ner</a><sup>2</sup>
+        &nbsp;&nbsp;
+        <a target="_blank" href="https://justusthies.github.io/">Justus Thies</a><sup>3</sup>
+        &nbsp;&nbsp;
+    </p>
+
+    <p class="center_text" align="center">
+
+        <sup>1</sup>Heidelberg University
+        &nbsp;&nbsp;
+        <sup>2</sup>Technical University of Munich
+        &nbsp;&nbsp;
+        <sup>3</sup>Max Planck Institute for Intelligent Systems
+    </p>
+
+    <p class="center_text" align="center">
+        <sup>*</sup>equal contribution
+    </p>
+
+    <br>
+
+        <h3 class="w3-left-align" id="intro"><b>Introduction</b></h3>
+        <p class="w3-justify">
+            We present <i>Neural Head Avatars</i>, a novel neural representation that explicitly models the surface geometry and appearance of an animatable human avatar that can be used for teleconferencing in AR/VR or other applications in the movie or games industry that rely on a digital human.
+
+            Our representation can be learned from a monocular RGB portrait video that features a range of different expressions and views.
+
+            Specifically, we propose a hybrid representation consisting of a morphable model for the coarse shape and expressions of the face, and two feed-forward networks, predicting vertex offsets of the underlying mesh as well as a view- and expression-dependent texture.
+
+            We demonstrate that this representation is able to accurately extrapolate to unseen poses and view points, and generates natural expressions while providing sharp texture details.
+
+            Compared to previous works on head avatars, our method provides a disentangled shape and appearance model of the complete human head (including hair) that is compatible with the standard graphics pipeline.
+
+            Moreover, it quantitatively and qualitatively outperforms current state of the art in terms of reconstruction quality and novel-view synthesis.
+        </p><br>
+
+        <h3 class="w3-left-align" id="publication"><b>Preprint</b></h3>
+        Paper - <a href="" target="__blank">ArXiv - pdf</a> (<a href="" target="__blank">abs</a>)
+        <center>
+            <a href="" target="__blank"><img src="preview.png" style="max-width:80%" /></a>
+        </center><br>
+
+        <h3 class="w3-left-align" id="video"><b>Video</b></h3>
+        <p>
+            <iframe width="850" height="480" src="arxiv_video.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <p/>
+    </div>
+
+
+</div>
+
+<br/>
+<br/>
+
+</body>
+</html>
